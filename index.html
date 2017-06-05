@@ -9,8 +9,41 @@
   </head>
   <body>
     <div class="container">
-      
+      <h1>Input Your Groceries Here: </h1>
+      <form id="inputList">
+        <div class="form-group">
+          <label for="item1">First Item: </label>
+          <input id="item1" class="form-control" type="text">
+        </div>
+        <div class="form-group">
+          <label for="item2">Second Item: </label>
+          <input id="item2" class="form-control" type="text">
+        </div>
+        <div class="form-group">
+          <label for="item3">Third Item: </label>
+          <input id="item3" class="form-control" type="text">
+        </div>
+        <div class="form-group">
+          <label for="item4">Fourth Item: </label>
+          <input id="item4" class="form-control" type="text">
+        </div>
+        <div class="form-group">
+          <label for="item5">Fifth Item: </label>
+          <input id="item5" class="form-control" type="text">
+        </div>
+        <button type="submit" class="btn">Submit Grocery List</button>
+      </form>
 
+      <div class="outputList">
+        <h2>Here is your Grocery List UPPERCASE and alphabetized:</h2>
+        <ul>
+          <li><span id="outputItem1"></span></li>
+          <li><span id="outputItem2"></span></li>
+          <li><span id="outputItem3"></span></li>
+          <li><span id="outputItem4"></span></li>
+          <li><span id="outputItem5"></span></li>
+        </ul>
+      </div>
     </div>
   </body>
 </html>
